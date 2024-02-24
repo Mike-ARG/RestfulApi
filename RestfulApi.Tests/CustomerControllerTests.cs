@@ -1318,8 +1318,6 @@ namespace RestfulApi.Tests
                 Assert.NotNull(dbCustomer);
                 Assert.Equal("Updated Name", dbCustomer.Name);
                 Assert.Equal("updated.email@example.com", dbCustomer.Email);
-                Assert.Equal("Updated Name", dbCustomer.Name);
-                Assert.Equal("updated.email@example.com", dbCustomer.Email);
                 Assert.Equal("Updated Address", dbCustomer.Address);
                 Assert.Equal("UpdatedDNI456", dbCustomer.DNI);
                 Assert.Equal("9876543210", dbCustomer.Phone);
