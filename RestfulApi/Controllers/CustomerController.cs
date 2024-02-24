@@ -140,7 +140,7 @@ namespace RestfulApi.Controllers
             return new JsonResult(Ok(customers));
         }
 
-        // Create/Edit a customer
+        // Create/Edit a customer (Note to Leo: It could also be divided into 2 different functions)
         [HttpPost]
         public JsonResult CreateEdit(Customer customer) // Using the same function to Create a new customer or Edit an existing one
         {
